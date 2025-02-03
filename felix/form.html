@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+</head>
+
+<body>
+
+    <!-- Navbar section start  -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Elements</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+       
+    </nav>
+
+    <!-- Navbar section end  -->
+
+
+    <!-- Form section for registeration start  -->
+
+    <form action="" method="post" style="max-width: 500px; margin: 0 auto;">
+        <fieldset>
+            <legend>Enter Personal Detail</legend>
+            <table>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" name="fname" value="" placeholder="Enter your name" /></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" name="" /></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="male" /><label for="male">Male</label>
+                        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Hobbies</label></td>
+                    <td>
+                        <input type="checkbox" name="hobby" id="music" /><label for="music">Music</label>
+                        <input type="checkbox" name="hobby" id="football"><label for="football">Football</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Message</label></td>
+                    <td><textarea rows="8" cols="60">Felix It's System</textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select name="" size="3" multiple>
+                            <option value="in">India</option>
+                            <option value="pk">Pakistan</option>
+                            <option value="ne">Nepal</option>
+                            <option value="cn" selected>China</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Cars</label></td>
+                    <td>
+                        <select>
+                            <optgroup label="Toyota">
+                                <option>Innova</option>
+                                <option>Etios</option>
+                                <option>Fortuner</option>
+                            </optgroup>
+                            <optgroup label="Renault">
+                                <option>Kwid</option>
+                                <option>Duster</option>
+                                <option>Captur</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Cars</label></td>
+                    <td>
+                        <input list="cars">
+                        <datalist id="cars">
+                            <option value="Innova">
+                            <option value="Kwid">
+                            <option value="Etios">
+                            <option value="Swift">
+                            <option value="Duster">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Upload File</label></td>
+                    <td><input type="file" accept="video/*" name="" /></td>
+                </tr>
+            </table>
+            <br /><br />
+            <input type="submit" value="Sign up" />
+            <input type="reset" />
+        </fieldset>
+    </form>
+
+    <!-- Form section for registeration end
+      -->
+
+</body>
+
+</html>

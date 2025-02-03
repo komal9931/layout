@@ -1,0 +1,220 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* General styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_blog {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+.demo {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  outline: none;
+}
+.demo:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  text-align: center;
+}
+/* Styles for the video container */
+.container_video {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px; /* Spacing between video and info */
+  max-width: 1200px;
+  margin: 20px auto; /* Centering horizontally with auto margins */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+  background-color: #f9f9f9;
+}
+
+/* Styles for the video wrapper */
+.video-wrapper {
+  width: 50%; /* Video takes up 50% of the container */
+  border-radius: 20px;
+  overflow: hidden; /* Hide overflow content */
+}
+
+.video-wrapper iframe {
+  width: 100%; /* Full width */
+  height: 300px; /* Fixed height */
+  border: none;
+  border-radius: 20px;
+}
+
+/* Styles for the video info */
+.video-info {
+  width: 50%; /* Info takes up 50% of the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
+
+.video-info h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.video-info p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.video-info button {
+  padding: 12px 24px;
+  background-color: #ed1c24;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.video-info button:hover {
+  background-color: #c11b21;
+}
+
+/* Styles for the static video container */
+.container_video_static {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Spacing between video and info */
+  max-width: 1200px;
+  margin: 20px auto; /* Centering horizontally with auto margins */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+  background-color: #f9f9f9;
+}
+
+/* Styles for the video wrapper in static container */
+.video-wrapper {
+  flex: 1; /* Video takes up remaining space */
+  border-radius: 20px;
+  overflow: hidden; /* Hide overflow content */
+}
+
+.video-wrapper video {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px;
+}
+
+/* Styles for the static video info */
+.video-info-static {
+  flex: 1; /* Info takes up remaining space */
+}
+
+.video-info-static h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.video-info-static p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.video-info-static button {
+  padding: 12px 24px;
+  background-color: #ed1c24;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.video-info-static button:hover {
+  background-color: #c11b21;
+}
+
+/* Heading styles */
+h2 {
+  font-size: 1.9rem;
+  text-align: center; /* Center align the heading */
+}
+
+/* Styles for the static audio container */
+.container-audio-static {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px; /* Spacing between audio cards */
+}
+
+/* Styles for each audio card */
+.audio-card {
+  width: 400px; /* Fixed width for consistency */
+  padding: 20px; /* Padding inside each card */
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light gray background */
+  text-align: center; /* Center align text */
+}
+
+.audio-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.audio-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.audio-card .image-wrapper {
+  margin-bottom: 15px;
+}
+
+.audio-card .image-wrapper img {
+  width: 150px; /* Fixed image size */
+  height: 150px; /* Fixed image size */
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Maintain aspect ratio */
+  border: 2px solid #ed1c24; /* Red border */
+}
+
+.audio-card audio {
+  width: 100%; /* Full width */
+  margin-top: 15px; /* Spacing from top */
+}

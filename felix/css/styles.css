@@ -1,0 +1,301 @@
+/* universal selector  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* first banner start  */
+
+.banner {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  height: 400px;
+  background-color: #edf0f5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px;
+}
+.banner span {
+  color: #fc5c53;
+}
+.banner h1 {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.banner h3 {
+  color: #222222;
+  font-size: 30px;
+  font-weight: 600;
+}
+.banner p {
+  color: #6a6b6c;
+  font-size: 30px;
+  font-weight: 600;
+}
+.banner button {
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+  /* border: 1px solid gray; */
+  color: black;
+  /* padding: 10px 32px; ???? */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px 2px;
+  cursor: pointer;
+}
+
+/* first banner end  */
+
+/* card section start  */
+#trends {
+  max-width: 1300px;
+  margin: 10px auto;
+  text-align: center;
+}
+#trends h2 {
+  color: #222222;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#trends p {
+  color: #6a6b6c;
+  font-size: 25px;
+  font-weight: 500;
+}
+#trends img {
+  width: 50px;
+}
+.container {
+  max-width: 1300px;
+  overflow: auto;
+
+  margin-top: 10px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center; /* Center the content horizontally */
+  /* border-bottom: 1px solid gray; */
+  /* border: 1px solid red; */
+}
+
+.card {
+  /* border: 1px solid red; */
+  float: left;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 90px;
+  margin-right: 10px;
+
+  text-align: center; /* Center the content horizontally */
+}
+
+.card img {
+  border-radius: 50%; /* Make the images circular */
+  width: 200px;
+  height: 200px; /* Ensure the height matches the width for a perfect circle */
+}
+
+/* card section end  */
+
+/* second banner start uisng background-image properies */
+
+.second-banner {
+  height: 590px;
+  border: 5px solid red;
+}
+
+.second-banner {
+  clear: both;
+  background-image: url(../Image/eCommerce-2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 210px;
+}
+.inner-card-banner {
+  padding: 90px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  height: 370px;
+}
+.inner-card-banner h2 {
+  color: #222222;
+  font-size: 30px;
+  font-weight: 600;
+}
+.inner-card-banner p {
+  color: #222222;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.inner-card-banner button {
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+  /* border: 1px solid gray; */
+  color: black;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  text-align: center;
+  font-size: 16px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 2px;
+  margin-right: 2px;
+
+  cursor: pointer;
+}
+.inner-card-banner button a {
+  text-decoration: overline;
+  color: black;
+}
+
+/* second banner end uisng background-image properies */
+
+/* all about shipping and secure in delivery  */
+/* shipping start  */
+.container-shipping {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  max-width: 100%;
+
+  border: 1px solid red;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.sub-card {
+  text-align: center;
+  margin: 10px;
+  margin-left: 130px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Adjust the width as needed */
+  float: left;
+}
+
+.sub-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.sub-card h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.sub-card p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* shipping end  */
+footer {
+  clear: both;
+  overflow: auto;
+
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 60px;
+  margin-top: 20px;
+  height: 300px;
+  background-color: #f7f7f7;
+}
+.main-footer {
+  /* border: 1px solid green; */
+  /* overflow: auto; */
+  margin-left: 200px;
+}
+
+.footer-section {
+  float: left;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-section h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+  margin-bottom: 10px;
+}
+.footer-section p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  /* margin: 5px 0; */
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+  /* border: 1px solid gray; */
+  color: black;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  text-align: center;
+  font-size: 16px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 2px;
+  margin-right: 2px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5f89b5;
+}
